@@ -1,0 +1,36 @@
+public class Rectangle{
+    private double length; 
+    private double width; 
+
+    public Rectangle(double newLength, double newWidth){ 
+        length = newLength
+        width = newWidth
+    }
+        public double getLength(){
+            return length;
+        }
+        public void setLength(double newLength){
+            length = newLength;
+        }
+        public double getWidth(){
+            return width;
+        }
+        public void setWidth(double newWidth){
+            width = newWidth;
+        }
+    public double getArea(){
+        return (length*width);
+
+    
+    }
+newsquare = new Rectangle(2.0,2.0)'
+
+
+}
+public static void main(String[] args){
+    System.out.println(getArea(newsquare))
+}
+        
+
+
+    
