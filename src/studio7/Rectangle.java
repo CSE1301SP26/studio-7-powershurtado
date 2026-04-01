@@ -21,19 +21,29 @@ public class Rectangle{
         public void setWidth(double newWidth){
              width = newWidth;
         }
-    public double getArea(){
+ public static double getArea(double length, double width ){
+      
         double area = length*width;
         return area;
 
-}
-    
+ }
 
 
 
-}
-public static void main(String[] args){
-   double square = new Rectangle(2.0,2.0);
-    System.out.println(getArea(square));
+
+    public static void main(String[] args){
+        Rectangle r1  = new Rectangle(5.0,4.0);
+         double a = r1.length;
+         double b = r1.width;
+         if(a!=b){
+            System.out.print("this is not a square. however, the area of this rectangle is ");
+         }else{
+            System.out.print("the area of your square is ");
+         }
+            
+        System.out.print(getArea( a, b));
+
+    }
 }
        
 
